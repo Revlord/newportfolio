@@ -4,6 +4,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return ( //outer div acts as a wrapper for the content that will come within our hero section
@@ -44,7 +45,11 @@ const Hero = () => {
                     </p>
 
                     <a href='#about'>
-                        <MagicButton />
+                        <MagicButton
+                        title='About me'
+                        position=''
+                        icon=''
+                         />
                     </a>
 
                 </div>
