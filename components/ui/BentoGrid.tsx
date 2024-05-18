@@ -9,11 +9,25 @@ export const BentoGrid = ({
 }) => {
   return (
     <div
-      className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
-        className
-      )}
-    >
+    className={cn(
+      // Responsive grid layout:
+      // - Base (small screens): 1 column
+      // - Medium screens: 6 columns
+      // - Large screens: 5 columns
+      "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5",
+  
+      // Consistent gap between grid items on all screen sizes:
+      "gap-8",  // Increased gap from 4 to 8 for more spaciousness
+  
+      // Removed automatic row height adjustment on medium screens:
+      // This gives you more control over row heights using other CSS properties or Tailwind classes.
+  
+      // Center the grid container horizontally within its parent:
+      "mx-auto",
+  
+      className // Additional classes from the 'className' prop
+    )}
+  >
       {children}
     </div>
   );
