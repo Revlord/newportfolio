@@ -83,10 +83,10 @@ export const BentoGridItem = ({
       }}
     >
       {/*This code below is to add images and content to target bento boxes */}
-      <div className={`${id == 6 && 'flex justify-center'} h-full`}>
+      <div className={`${id == 6 && 'flex justify-center'} h-full relative`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img src={img} alt={img} className={cn(imgClassName, 'object-cover, object-center')}/>
+            <img src={img} alt={img} className={cn(imgClassName, "object-cover object-center ")}/>
           )}
         </div>
 
