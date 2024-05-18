@@ -41,14 +41,14 @@ const Hero = () => {
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg
                     lg:text-xl'>
-                        Hey, I'm Revanth! A CS major at Georgia Tech
+                        Hey, I'm Revanth! A CS major at <span className="text-yellow-400">Georgia Tech</span>
                     </p>
 
                     <a href='#about'>
                         <MagicButton
                         title='About me'
-                        position=''
-                        icon=''
+                        position='left'
+                        icon={<FaLocationArrow/>}
                          />
                     </a>
 
