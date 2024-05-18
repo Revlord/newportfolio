@@ -40,7 +40,7 @@ const Hero = () => {
                     words='Cutting edge tech. Creative ideas. Obsessive work ethic. Binded by code.' />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg
-                    lg:text-2xl'>
+                    lg:text-xl'>
                         Hey, I'm Revanth! A CS major at Georgia Tech
                     </p>
 
