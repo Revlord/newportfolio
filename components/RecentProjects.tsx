@@ -48,7 +48,6 @@ const RecentProjects = () => {
                         </div>
                     </div>
                 </PinContainer>
-
             </div>
         ))}
     </div>
