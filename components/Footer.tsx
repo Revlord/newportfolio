@@ -6,14 +6,8 @@ import { socialMedia } from '@/data'
 export const Footer = () => {
   return (
     <footer className='w-full pt-20 pb-10' id='contact'>
-        <div className='w-full absolute left-0 -bottom-72 min-h-96'>
-            <img src='/footer-grid.svg'
-            alt='grid'
-            className='w-full h-full opacity-50'/>
-        </div>
-
         <div className='flex flex-col items-center'>
-            <h1 className='heading lg:max-w-[45vw]'>
+            <h1 className='heading lg:max-w-[45vw] mb-5'>
                 Feel free to <span className='text-purple'>Contact</span> Me!
             </h1>
             <a href="mailto:rburramukku3@gatech.edu">
@@ -27,7 +21,7 @@ export const Footer = () => {
 
         <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
             
-            <p className='md:text-base text-sm md:font-normal font-light'>Atlanta, GA 📍</p>
+            <p className='md:text-base text-sm md:font-normal font-light mb-3'>Atlanta, GA 📍</p>
 
             <div className='flex items-center md:gap-3 gap-6'>
                 {socialMedia.map((profile) => (
