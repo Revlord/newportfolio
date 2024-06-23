@@ -6,8 +6,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Revanth's Portfolio",
-  description: "Revanth Reddy Burramukku's Portfolio",
+  title: "GTXR Website",
+  description: "Website for the GTXR club at Georgia Tech.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,8 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="dark">
-          {children}</ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
