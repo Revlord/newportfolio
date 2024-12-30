@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I proritize assembling the best team for complex tasks to produce quality results",
+    title: "I love working with quality teams because I catalyze producing quality results.",
     description: "Leadership is at my core",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,10 +38,10 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "CS major @ Georgia Tech",
-    description: "<Tech, Tennis, Science> is my life vector",
+    title: "Hurry Up Tomorrow! (I'm waiting)",
+    description: "<Math, Metal, Tennis, Poker, Lifting> is my life vector (5D!?!)",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
+    imgClassName: "",     
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently learning Angular and .NET 8 to help build stable entreprise level products",
-    description: "What am I learning now?",
+    title: "Currently sovling questions from LeetCode and PuzzledQuant to sharpen algorithms and critical thinking. Working with Lockchain.ai as a Frontend Engineer",
+    description: "What am I up to?",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",

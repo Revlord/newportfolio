@@ -5,6 +5,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Hero = () => {
   return ( //outer div acts as a wrapper for the content that will come within our hero section
@@ -32,21 +33,21 @@ const Hero = () => {
                 lg:max-w-[60vw] flex flex-col items-center justify-center">
 
                     <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                        the revlord workspace
+                        Revanth Reddy Burramukku
                     </h2>
 
                     <TextGenerateEffect
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Cutting edge tech. Creative ideas. Obsessive work ethic. Binded by code.' />
+                    words='Combinatorics. Game Theory. Probability. Algorithms. Critical Thinking. Thats Me' />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg
                     lg:text-xl'>
-                        Hey, I&apos;m Revanth! | Majoring CS @ <span className="text-yellow-400">Georgia Tech</span>
+                        Junior CS Major @ <Link className="text-yellow-400" href="https://www.gatech.edu/about/rankings">Georgia Tech</Link>
                     </p>
 
-                    <a href='#about'>
+                    <a href='https://www.linkedin.com/in/revbr'>
                         <MagicButton
-                        title='About me'
+                        title='LinkedIn'
                         position='left'
                         icon={<FaLocationArrow/>}
                          />
