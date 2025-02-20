@@ -38,10 +38,10 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Hurry Up Tomorrow! (I'm waiting)",
-    description: "<Math, Metal, Tennis, Poker, Lifting> is my life vector (5D!?!)",
+    title: "Ferrari F1 2025",
+    description: "<Math, Tennis, Poker, Lifting, Racing> is my life vector",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",     
+    imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
